@@ -1,5 +1,4 @@
-from MyWidget import *
-from TimeController import *
+from TimerWidget import *
 
 
 class TimerWindow:
@@ -11,8 +10,7 @@ class TimerWindow:
         self.canvas = TimerCanvas(self.root)
         self.canvas.grid(row=1, column=1)
 
-        self.my_widgets = MyWidgets(root)
-        # self.TimeController = TimeController(self.my_widgets)
+        self.timer_widget = TimerWidget(root)
 
     def start(self):
         self.root.mainloop()
