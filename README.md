@@ -55,6 +55,8 @@ Handles the graphical display of the timer. This class extends Tkinter's `Canvas
    git clone https://github.com/yourusername/timer-app.git
    cd timer-app
 2. **Install Pygame:**
+   ```bash
    pip install pygame
 4. **Run the Application:**
+   ```bash
    python main.py
